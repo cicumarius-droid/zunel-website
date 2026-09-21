@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>ZUNEL – O lume pentru copii</title>
+
+  <meta
+    name="description"
+    content="ZUNEL este o aplicație educațională pentru copii cu vârste între 4 și 12 ani."
+  >
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(135deg, #6c4cff, #9b5cff);
+      color: #ffffff;
+      min-height: 100vh;
+    }
+
+    .page {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      padding: 28px 20px;
+      text-align: center;
+    }
+
+    .logo {
+      font-size: 42px;
+      font-weight: 800;
+      letter-spacing: 2px;
+      margin: 0;
+    }
+
+    .tagline {
+      margin-top: 8px;
+      font-size: 18px;
+      opacity: 0.95;
+    }
+
+    main {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 30px 20px 60px;
+    }
+
+    .card {
+      width: 100%;
+      max-width: 760px;
+      background: #ffffff;
+      color: #302b45;
+      border-radius: 28px;
+      padding: 42px 34px;
+      text-align: center;
+      box-shadow: 0 18px 50px rgba(0, 0, 0, 0.18);
+    }
+
+    h1 {
+      margin-top: 0;
+      font-size: 34px;
+      color: #6847e8;
+    }
+
+    .intro {
+      font-size: 18px;
+      line-height: 1.7;
+      margin: 20px auto 30px;
+      max-width: 620px;
+    }
+
+    .age {
+      display: inline-block;
+      background: #fff3b5;
+      color: #493a00;
+      border-radius: 999px;
+      padding: 10px 20px;
+      font-weight: 700;
+      margin-bottom: 28px;
+    }
+
+    .privacy-button {
+      display: inline-block;
+      background: #ffd83d;
+      color: #342c00;
+      text-decoration: none;
+      font-weight: 700;
+      padding: 15px 26px;
+      border-radius: 14px;
+      transition: transform 0.2s ease;
+    }
+
+    .privacy-button:hover {
+      transform: translateY(-2px);
+    }
+
+    .english {
+      margin-top: 34px;
+      padding-top: 28px;
+      border-top: 1px solid #e7e3f2;
+      color: #5c5670;
+      line-height: 1.6;
+    }
+
+    footer {
+      text-align: center;
+      padding: 24px 20px 30px;
+      font-size: 14px;
+      opacity: 0.9;
+    }
+
+    @media (max-width: 600px) {
+      .logo {
+        font-size: 34px;
+      }
+
+      .card {
+        padding: 32px 22px;
+      }
+
+      h1 {
+        font-size: 27px;
+      }
+
+      .intro {
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="page">
+
+    <header>
+      <div class="logo">ZUNEL</div>
+      <div class="tagline">O lume pentru copii</div>
+    </header>
+
+    <main>
+      <section class="card">
+
+        <h1>Bine ai venit în lumea ZUNEL!</h1>
+
+        <div class="age">
+          Creat pentru copii cu vârste între 4 și 12 ani
+        </div>
+
+        <p class="intro">
+          ZUNEL este o aplicație educațională creată pentru a oferi copiilor
+          activități de învățare, jocuri și experiențe interactive într-un
+          mediu potrivit vârstei.
+        </p>
+
+        <a class="privacy-button" href="privacy.html">
+          Politica de confidențialitate
+        </a>
+
+        <div class="english">
+          <strong>ZUNEL – A world for kids</strong>
+          <p>
+            ZUNEL is an educational app designed for children aged 4–12,
+            offering learning activities, games and age-appropriate
+            interactive experiences.
+          </p>
+        </div>
+
+      </section>
+    </main>
+
+    <footer>
+      © 2026 ZUNEL. Toate drepturile rezervate.
+    </footer>
+
+  </div>
+</body>
+</html>
